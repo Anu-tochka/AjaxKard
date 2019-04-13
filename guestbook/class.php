@@ -6,7 +6,7 @@ require_once ("./config.php");
 	  public $email;
 	  public $comment;
 
-	  function __construct($n, $e, $c)
+	  function __construct(string $n, string $e, string $c)
 	  {
 		$this->name = $n;
 		$this->email = $e;
