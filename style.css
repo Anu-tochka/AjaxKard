@@ -1,18 +1,20 @@
 body{
-    background-color: #fff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 2em;
-}
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}  
 
 header {
   background-color: #2d3136;
   padding-top: 30px;
   width: 100%;
+  color: #fff;
+  font-size: 2.5em;
 }
 
 #logo{
-  padding-top: 30px;
-  padding-bottom: 185px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .media {
@@ -23,8 +25,8 @@ header {
 /* ** form ** */
 form {
   color: #fff;
-  padding-top: 90px;
-  padding-bottom: 185px;
+  padding-top: 20px;
+  padding-bottom: 45px;
   
 }
 
@@ -34,13 +36,12 @@ span {
 }
 
 #inputName, #inputEmail, #inputComment {
-  padding: 50px 60px; */
-  /* height: 185px; */
+  padding: 5px; 
   border: 1px solid #4c4f53;
   border-radius: 10px;
   background-color: #2f3338;
   color: #fff;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 #inputName[onfocus], #inputEmail[onfocus], #inputComment[onfocus] {
@@ -52,42 +53,42 @@ span {
 }
 
 button[type="submit"]{
-  width: 460px;
-  height: 185px;
+  width: 190px;
+  height: 75px;
   float: right;
   border-radius: 10px;
   background-color: #be393b;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 /* ** end form ** */
 
 main  {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 section {
   text-align: center;
   color: #767582;
-  margin-top: 130px;
+  margin-top: 30px;
 }
 
 .kard-top  {
-  padding: 20px;
+  padding: 10px;
   background-color: #4b596c;
   color: #fff;
 }
 
 .kard-body {
   background-color: #e9eef3;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .kard-mail {
   font-weight: bold;
-  padding-top: 100px;
-  padding-bottom: 100px; 
+  padding-top: 20px;
+  padding-bottom: 20px; 
 }
 
 #messages section:nth-child(even) .kard-top  {
@@ -106,11 +107,11 @@ section {
 
 footer  {
   background: #2d3136;
-  color: #000;
-  padding: 80px 20px 105px 0px;
-  margin-top: 175px;
+  color: #fff;
+  padding: 10px 20px 15px 0px;
+  margin-top: 25px;
 }
 
 .networks {
-  margin: 50px;
+  margin: 20px;
 }
