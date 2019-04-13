@@ -1,8 +1,7 @@
 <?php
-//include_once ("test.php");
 require_once ("./config.php");
 
-/*** функция проверки входных значений ***/
+/*** input value check function ***/
 
 function check($str){
 	$str = strip_tags ( $str);
@@ -12,7 +11,7 @@ function check($str){
 }
 
 
-/*** функция чтения из БД ***/
+/*** dB read function ***/
 
 function read(){
 	$query =  "SELECT * FROM messages";
@@ -31,7 +30,7 @@ function read(){
 }	
 
 
-/*** функция записи в БД ***/
+/*** ГґdB record function ***/
 
 function record($name, $email, $comment){  
 	$query =  "INSERT INTO messages (name,email,comment) VALUES ('".$name."', '".$email."', '".$comment."');";
